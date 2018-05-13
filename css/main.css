@@ -1,137 +1,36 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto|Open+Sans|Raleway);
-
 body{
-	/*background-image: url(/img/bg.jpg);*/
-	background-color:black;
+	background-color:#222222;
+	color:white;	
+}
+
+.luis-header{
+	background-color:#323236;
+}
+
+.bg-color2{
+	background-color:#323236;
+}
+
+.fg-color2{
+	color:#F1D5A3;
+}
+
+.nav-item a,
+.nav-item a:link,
+.nav-item a:visited{
 	color:white;
-	font-family: 'Open Sans', sans-serif;
-}
-
-
-#header-wrapper{
-	border-bottom:1px solid rgba(255,255,255,0.3);
-}
-
-#page-title{	
-	line-height:80px;
-	font-size:3.5em;
-	font-weight:bold;
-	font-family: 'Open Sans', sans-serif;
-	color:#85C206;
-}
-
-#page-subtitle{
-	margin-top:-15px;	
-	font-size:1.5em;
-	font-family: 'Roboto' , sans-serif;
-}
-
-#navbar-wrapper{
-	background-color:#85C206;
-	border-bottom:1px solid rgba(255,255,255,0.3);
-}
-
-.navbar-col{
-	font-size:1.4em;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.navbar-col a{
-	font-weight:bold;
-	color:white;
-}
-
-.navbar-col a:hover{
-	color:blue;
 	text-decoration:none;
 }
 
-.navbar-col a:link{
-	outline:none;
-	text-decoration:none;
+.nav-item a:hover{
+	text-decoration:underline;
 }
 
-#main-quote-row{
-	padding-top:30px;
-	padding-bottom:30px;
+.footer a,
+.footer a:link,
+.footer a:visited{
+	color:white;
 }
-#main-quote{
-	font-size:3em;
-	text-align:center;
-	font-family: 'Roboto', sans-serif;
-}
-
-#main-description{
-
-}
-
-#description-row{
-	padding-bottom:40px;
-}
-
-
-#description-1{
-	color:#85C206;
-	font-size:1.3em;
-	font-weight:bold;
-	margin-top:60px;
-	margin-bottom:20px;
-}
-
-#description-2{
-	font-size:1.2em;
-}
-
-#services-header-wrapper{
-	background-color:#85C206;
-	/*background-color:rgba(255,255,255,0.1);*/
-	border-top:1px solid rgba(255, 255, 255, 0.3);
-	border-bottom:1px solid rgba(255, 255, 255, 0.3);
-	margin-bottom:40px;
-}
-
-#services-header{
-	font-size:3em;
-	font-family:'Open Sans', sans-serif;
-	font-weight:bold;
-	color:black;
-}
-
-#services-wrapper{
-	margin-bottom:50px;
-
-}
-
-#services-row1{
-	border-bottom:1px solid rgba(255,255,255,0.3);
-	margin-bottom:30px;
-	padding-bottom:10px;
-}
-.feature{
-	/*border:1px solid white;*/
-	border-right:1px solid white;
-}
-
-.feature-title{
-	font-family: 'Open Sans', sans-serif;
-	font-size:2em;
-	text-align:center;
-	font-weight:bold;
-	/*color:#9ED034;*/
-	color:#85C206;
-
-}
-
-
-.feature-description{
-	font-family: 'Open Sans', sans-serif;
-	font-size:1.2em;
-
-	padding-top:10px;
-	margin-bottom:15px;
-}
-
-
 
 #footer-wrapper{
 	background-color:#85C206;
@@ -149,14 +48,6 @@ body{
 	text-decoration:none;
 }
 
-
-#resources-title{
-	display:inline-block;
-	color:black;
-	font-weight:bold;
-	font-size:1.5em; 
-	font-family:'Open Sans', sans-serif;
-}
 
 ul{
 	display:inline-block;
