@@ -7,6 +7,21 @@ body{
 	background-color:#323236;
 }
 
+.luis-brand{
+	text-transform: uppercase;
+	padding:25px;	
+}
+
+.luis-nav li{
+	font-size:2em;
+	margin:50px;
+	background-color:#323236;
+}
+
+.luis-nav a{
+	color:white;
+}
+
 .bg-color2{
 	background-color:#323236;
 }
